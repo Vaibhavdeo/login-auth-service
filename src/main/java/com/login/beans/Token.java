@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Token {
 	
+	
 	private String token;
 
 	public String getToken() {
