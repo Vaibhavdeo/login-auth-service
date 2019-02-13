@@ -6,13 +6,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.login.beans.Token;
 import com.login.beans.User;
 import com.login.service.LoginService;
 
-@RestController
 @CrossOrigin
+@RestController
 public class LoginController {
 	
 	@Autowired
