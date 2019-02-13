@@ -12,7 +12,7 @@ import com.login.beans.User;
 import com.login.service.LoginService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200/login")
+@CrossOrigin
 public class LoginController {
 	
 	@Autowired
